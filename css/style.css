@@ -376,3 +376,9 @@ div.figureright p {
    top:0;
    right:0;
 }
+#more-king-grass {
+	display:inline;
+}
+#less-king-grass {
+	display:none;
+}
