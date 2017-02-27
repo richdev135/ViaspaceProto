@@ -388,3 +388,9 @@ div.figureright p {
 #less-viaspace {
 	display: none;
 }
+#more-labs {
+	display: inline;
+}
+#less-labs {
+	display: none;
+}
