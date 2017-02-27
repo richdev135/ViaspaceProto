@@ -382,3 +382,9 @@ div.figureright p {
 #less-king-grass {
 	display:none;
 }
+#more-viaspace {
+	display: inline;
+}
+#less-viaspace {
+	display: none;
+}
