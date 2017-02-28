@@ -383,6 +383,10 @@ div.figureright p {
 #less-king-grass {
 	display:none;
 }
+#show-less-king-grass {
+	cursor: pointer;
+}
+
 #more-viaspace {
 	display: inline;
 	cursor: pointer;
@@ -390,10 +394,17 @@ div.figureright p {
 #less-viaspace {
 	display: none;
 }
+#show-less-viaspace {
+	cursor: pointer;
+}
+
 #more-labs {
 	display: inline;
 	cursor: pointer;
 }
 #less-labs {
 	display: none;
+}
+#show-less-labs {
+	cursor: pointer;
 }
