@@ -44,3 +44,26 @@ $("#show-less-labs").bind("click", function(){
     $("#more-labs").show(200);
 });
 
+
+/**** In case I need to scroll
+ * //Finds y value of given object
+function findPos(obj) {
+	var curtop = 0;
+	if (obj.offsetParent) {
+		do {
+			curtop += obj.offsetTop;
+		} while (obj = obj.offsetParent);
+	return [curtop];
+	}
+}
+//Get object
+var SupportDiv = document.getElementById('customer_info');
+ 
+//Scroll to location of SupportDiv on load
+window.scroll(0,findPos(SupportDiv));
+ * 
+ * **/
+
+
+
+
