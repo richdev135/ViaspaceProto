@@ -378,18 +378,21 @@ div.figureright p {
 }
 #more-king-grass {
 	display:inline;
+	cursor: pointer;
 }
 #less-king-grass {
 	display:none;
 }
 #more-viaspace {
 	display: inline;
+	cursor: pointer;
 }
 #less-viaspace {
 	display: none;
 }
 #more-labs {
 	display: inline;
+	cursor: pointer;
 }
 #less-labs {
 	display: none;
