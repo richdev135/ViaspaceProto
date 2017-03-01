@@ -26,8 +26,13 @@
 //				$("#imagescroll").html("Hello, world");
 			$("#imagescroll").slick({
 				infinite: true,
-				slidesToShow: 3,
-				slidesToScroll: 3
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 4000,
+				speed: 500,
+				fade: true,
+				cssEase: 'linear'
 				});
 			}
 	);
@@ -44,7 +49,7 @@
 
 	div.bordered {
 		border: solid blue 1px;
-		max-width: 100px;
+		max-width: 900px;
 	}
 </style>
 
@@ -125,13 +130,13 @@
 </div>
 			<div id="main" class="main">
 				<!-- 900x255 -->
-				<div id="imagescroll" class="slider single-item">
-					<div class="bordered" ><h1>1.1</h1></div>
-					<div class="bordered"><h1>2</h1></div>
-					<div class="bordered"><h1>3</h1></div>
-					<div class="bordered"><h1>4</h1></div>
-					<div class="bordered"><h1>5</h1></div>
-					<div class="bordered"><h1>6</h1></div>
+				<div id="imagescroll">
+					<div><img src="images/main.jpg"/></div>
+					<div><img src="images/main6.jpg"/></div>
+					<div><img src="images/main2.jpg"/></div>
+					<div><img src="images/main3.jpg"/></div>
+					<div><img src="images/main4.jpg"/></div>
+					<div><img src="images/main5.jpg"/></div>
 				</div>
 			</div>
 			<div id="indexbody" class="indexbody">
