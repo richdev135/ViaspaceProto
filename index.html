@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title> Viaspace : A Clean Energy Company  </title>
+<title> Demo Viaspace : A Clean Energy Company  </title>
 <meta name="generator" content="editplus" />
 <meta name="author" content="Blue Reef Designs" />
 <meta name="keywords" content="clean energy, renewable energy, Green energy, Biofuels, non-food, non-fossil, fossil fuels, non-petroleum, agriculture, coal firing, grass, Biocoal, biomass, low carbon, cellulosic biofuels, ethanol, Grassoline, Co-firing, animal feed, pig feed, cattle feed, dairy cow feed, fish feed, switchgrass, miscanthus, Direct Methanol Fuel Cell Corporation, clean energy, clean conversion, battery replacement, alternative power source, small electronics, consumer electronics, disposable fuel cartridge, innovative power source, Fuel cell, direct methanol fuel cell, DMFC, fuel cartridge, patents, methanol, framed art, wholesale framed art, wholesale custom framed art" />
@@ -13,7 +13,10 @@
 			  src="https://code.jquery.com/jquery-3.1.1.js"
 			  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
 			  crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/swfobject.js"></script>
+<!-- script type="text/javascript" src="js/swfobject.js"></script -->
+<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
 </head>
 
  <body>
@@ -110,12 +113,15 @@
 	</ul>				
 </div>
 			<div id="main" class="main">
-				<div id="flashcontent"></div>
-				<script type="text/javascript">
-				   var so = new SWFObject("viaspace_main.swf", "mymovie", "900", "225", "7", "#FFFFFF");
-				   so.addParam("wmode", "transparent");
-				   so.write("flashcontent");
-				</script>
+				<!-- 900x255 -->
+				<div id="imagescroll" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+					<div><h3>1</h3></div>
+					<div><h3>2</h3></div>
+					<div><h3>3</h3></div>
+					<div><h3>4</h3></div>
+					<div><h3>5</h3></div>
+					<div><h3>6</h3></div>
+				</div>
 			</div>
 			<div id="indexbody" class="indexbody">
 				<table border="0" width="100%" cellpadding="0">
@@ -192,7 +198,7 @@
 				<![endif]-->
 							<div id="body_bottom" class="body_bottom"></div>
 			<div id="footer" class="footer">				
-				<a href="contactus.php">Contact Us</a> | <a href="au_careers.php">Careers</a> | <a href="privacy.php">Privacy Policy</a> | <a href="terms.php">Terms of Use</a> | <a href="http://www.bluereefdesigns.com">A Blue Reef Website</a> | &copy; 2017 VIASPACE All Rights Reserved.				
+				<a href="contactus.php">Contact Us</a> | <a href="au_careers.php">Careers</a> | <a href="privacy.php">Privacy Policy</a> | <a href="terms.php">Terms of Use</a> | &copy; 2017 VIASPACE All Rights Reserved.				
 			</div><br />	
 
 <script type="text/javascript" src="js/scripts.js"></script>
@@ -206,5 +212,6 @@ try {
 var pageTracker = _gat._getTracker("UA-2808165-11");
 pageTracker._trackPageview();
 } catch(err) {}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 </body>
 </html>
