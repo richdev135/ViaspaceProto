@@ -63,14 +63,6 @@ img {
 	color: #1b4979;
 	text-align: center;
 }
-.linkstop {		
-	float: right;		
-	width: auto;
-	padding-top: 20px;	
-	padding-right: 20px;
-	text-align: right;		
-	font-weight: bold;
-}
 .short { 
 	display:inline; 
 	text-decoration: none
@@ -102,9 +94,6 @@ ul.arrowlist li {
 .stock_col_right {
 	width: 70px;
 }
-.ticker {
-	font-weight: normal;
-}
 #test_container_template {
 	position: relative;			
 	width: 900px;
@@ -129,6 +118,7 @@ ul.arrowlist li {
 	height: 100px;
 	margin: 0;
 	padding: 0;	
+	border: 1px solid black;
 }
 #header_left {
 	position: relative;	
@@ -140,7 +130,7 @@ ul.arrowlist li {
 }
 #header_right {
 	position: relative;			
-	right:300px;
+	left:3px;
 	width: 400px;
 	height: 100px;
 	float: right;
@@ -148,9 +138,18 @@ ul.arrowlist li {
 	padding: 1px;		
 	border: 1px red solid;
 }
+.linkstop {		
+	width: auto;
+	padding-top: 20px;	
+	padding-right: 20px;
+	text-align: right;		
+	font-weight: bold;
+}
+.ticker {
+	font-weight: normal;
+}
+
 #contact-bar {
-	position: relative;
-	float: right;
 	width:300px;
 	border: 1px blue dashed;
 }
