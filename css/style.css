@@ -413,3 +413,6 @@ div.figureright p {
 #show-less-labs {
 	cursor: pointer;
 }
+#imagescroll {
+	display: none;
+}
