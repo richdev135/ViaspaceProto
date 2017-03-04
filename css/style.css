@@ -118,7 +118,6 @@ ul.arrowlist li {
 	height: 100px;
 	margin: 0;
 	padding: 0;	
-	border: 1px solid black;
 }
 #header_left {
 	position: relative;	
@@ -130,13 +129,12 @@ ul.arrowlist li {
 }
 #header_right {
 	position: relative;			
-	left:3px;
+	left:100px;
 	width: 400px;
 	height: 100px;
 	float: right;
 	margin: 1px;
 	padding: 1px;		
-	border: 1px red solid;
 }
 .linkstop {		
 	width: auto;
