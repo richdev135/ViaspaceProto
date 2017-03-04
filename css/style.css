@@ -140,11 +140,19 @@ ul.arrowlist li {
 }
 #header_right {
 	position: relative;			
-	width: 600px;
+	right:300px;
+	width: 400px;
 	height: 100px;
 	float: right;
-	margin: 0;
-	padding: 0;		
+	margin: 1px;
+	padding: 1px;		
+	border: 1px red solid;
+}
+#contact-bar {
+	position: relative;
+	float: right;
+	width:300px;
+	border: 1px blue dashed;
 }
 #menu {		
 	width: 900px;
