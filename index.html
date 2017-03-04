@@ -23,6 +23,10 @@
 <script type="text/javascript">
 	$(document).ready(
 		function(){
+			setTimeout(function(){
+				$("#wait-to-load").hide(100);
+				$("#imagescroll").show(200);
+			},250);
 //				$("#imagescroll").html("Hello, world");
 			$("#imagescroll").slick({
 				infinite: true,
@@ -133,6 +137,9 @@
 </div>
 			<div id="main" class="main">
 				<!-- 900x255 -->
+				<div id="wait-to-load">
+					<img src="images/wait.gif" alt="wait" />
+				</div>
 				<div id="imagescroll">
 					<div><img src="images/main.jpg"/></div>
 					<div><img src="images/main6.jpg"/></div>

@@ -416,3 +416,8 @@ div.figureright p {
 #imagescroll {
 	display: none;
 }
+#wait-to-load {
+	position: relative;
+	top:100px;
+	text-align: center;
+}
